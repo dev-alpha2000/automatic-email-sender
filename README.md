@@ -1,2 +1,10 @@
-# automatic_email_sender_with_html_buttons
-This a python script that can be used with any scheduler or ansible playbooks or can be use solely to generate mail with buttons which basically contains approve and reject button.The idea behind this scipt is that it will send mail to client whose suppose server is running and reach a high cpu utilization and we need to stop his or her server then this script will trigger and mail will automatically sent to him to know his answer whether it is approved or rejected.
+Overview
+This project is an Automatic Email Sender application built using React. It allows users to send automated emails through a simple interface by integrating with an email service provider's API (e.g., SMTP, SendGrid, or NodeMailer). The project features a form for composing the email, selecting recipients, and triggering the sending process programmatically.
+
+Features
+Email Composition: Users can compose an email by providing subject, message body, and recipient information.
+Automated Email Sending: Programmatically send emails through integration with an email API or SMTP service.
+Email Templates: Support for reusable email templates.
+Recipient Management: Users can add multiple recipients for bulk email sending.
+Status Notifications: Display the status of the email delivery (sent, failed).
+Responsive Design: Fully responsive UI for mobile and desktop devices
