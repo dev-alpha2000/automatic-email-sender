@@ -70,10 +70,18 @@ Email API (SendGrid, SMTP, or NodeMailer): To handle the actual email sending pr
 CSS or Styled Components: For styling the UI components and form.
 
 ## Email Service Setup
+
 SendGrid: Configure your SendGrid account, get the API key, and add it to your environment variables.
+
 SMTP: Use an SMTP server and credentials for secure email delivery.
+
 NodeMailer: If using NodeMailer, ensure your backend is properly configured to handle requests.
-Security Considerations
+
+## Security Considerations
+
 API Key Management: Never expose sensitive API keys in the frontend code. Store them in environment variables or a secure backend.
+
 Spam Prevention: Add form validation and CAPTCHAs to prevent misuse of the email sender.
+
 Email Rate Limiting: Implement rate limiting on the backend to avoid a
+
